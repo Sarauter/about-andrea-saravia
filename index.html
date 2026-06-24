@@ -276,6 +276,7 @@
     border-radius: var(--radius-xl);
     padding: 22px;
     transition: box-shadow 0.15s, transform 0.15s;
+    display: block;
   }
 
   .system-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
@@ -303,6 +304,14 @@
   }
 
   .system-card p { font-size: 12.5px; color: var(--text-soft); font-weight: 300; line-height: 1.6; }
+
+  .system-card .link-cue {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--purple-500);
+    margin-top: 12px;
+    display: inline-block;
+  }
 
   /* ── BANNER ───────────────────────────────────────── */
   .banner {
@@ -427,6 +436,7 @@
         <div class="stat-lbl">Years in telecom &amp; digital infrastructure, LATAM/Europe</div>
       </div>
     </div>
+    <a href="https://sarauter.com/Branding-successful-case-LD/" target="_blank" rel="noopener" class="link-cue" style="margin-top:14px;">See the full case study &rarr;</a>
   </section>
 
   <!-- WHAT I SOLVE -->
@@ -469,16 +479,23 @@
         <h3>GEO/AEO optimization engine</h3>
         <p>System to get B2B content found and cited by generative search engines (ChatGPT, Perplexity, Gemini) — not just Google.</p>
       </div>
-      <div class="system-card">
+      <a class="system-card" href="https://sarauter.com/Prompt-Toolkit/" target="_blank" rel="noopener">
         <span class="system-tag">Operations</span>
         <h3>SARAUTER Prompt Toolkit</h3>
         <p>Proprietary library of prompts and workflows for brand, content, and strategy production. The operating system behind every deliverable.</p>
-      </div>
+        <span class="link-cue">Open the toolkit &rarr;</span>
+      </a>
       <div class="system-card">
         <span class="system-tag">Brand</span>
         <h3>AI-powered brand workflows</h3>
         <p>Skills, subagents, and automations configured to take a brand project from brief to deliverable, end to end.</p>
       </div>
+      <a class="system-card" href="https://sarauter.com/herramienta-de-productividad/" target="_blank" rel="noopener">
+        <span class="system-tag">Productivity</span>
+        <h3>Productivity system</h3>
+        <p>A working system to organize priorities and execution &mdash; built the same way as everything else here: once, as a system, not improvised every week.</p>
+        <span class="link-cue">Open the tool &rarr;</span>
+      </a>
     </div>
   </section>
 
@@ -518,7 +535,7 @@
   <!-- CONTACT -->
   <section id="contact">
     <div class="banner">
-      <div class="banner-title">Available for strategic consulting</div>
+      <div class="banner-title">Open to my next Marketing Director role &mdash; or the right consulting partnership</div>
       <div class="banner-body">Brand positioning, content strategy, and AI systems for B2B telecom and digital infrastructure companies.</div>
       <div class="cta-row">
         <a class="btn btn-primary" href="mailto:sarauter@gmail.com">Send an email</a>
